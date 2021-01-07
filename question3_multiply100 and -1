@@ -1,0 +1,18 @@
+
+n=int(input("enter a number"))
+i=0
+z=[]
+while i<n:
+    s=int(input("enter  anumber"))
+    z.append(s)
+    i=i+1
+print(z)
+x=len(z)
+j=0
+while j<x:
+    if  z[j]%2==0:
+        print(z[j]*100)
+        
+    else:
+        print(z[j]*-1)
+    j+=1
