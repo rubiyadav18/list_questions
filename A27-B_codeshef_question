@@ -1,0 +1,12 @@
+list=["a","1","2","5","b","q"]
+n=int(input("enter a number"))
+c=len(list)
+a=c-1
+i=a
+k=0
+while i<len(list):
+    print(list[i])
+    k=k+1
+    if k==n:
+        break
+    i=i-1
